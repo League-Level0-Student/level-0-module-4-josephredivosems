@@ -22,7 +22,7 @@ public class PiAloud {
 	// 4. Print ALL the digits of of Pi (hint: use a loop
 		for (int i = 0; i < 19 ; i++) {
 			System.out.println(pi.charAt(i));
-			speak(pi.charAt(i));
+			
 		}
 	// 5. Use the speak() method to speak all the digits of Pi.
 
