@@ -1,5 +1,7 @@
 package _99_extra;
 
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 import org.jointheleague.graphical.robot.Robot;
@@ -57,7 +59,7 @@ if(age < 20) {
 else {
 	System.out.println("Don't you wish you were young");
 }
-String animalLiked = JOptionPane.showInputDialog("What animal do you like?")
+String animalLiked = JOptionPane.showInputDialog("What animal do you like?");
 if(animalLiked.equals("dog")) {
 	JOptionPane.showMessageDialog(null, "dog goes woof");
 }
@@ -70,40 +72,72 @@ else if(animalLiked.equals("horse")) {
 else {
 	JOptionPane.showMessageDialog(null, "I don't know that animal");
 }
-int num = random
+Random ran = new Random();
+int num = ran.nextInt(1000);
+
+Random rann = new Random();
+int numm = rann.nextInt();
+
+Random rand = new Random();
+int add = rand.nextInt(100);
+
+Random rando = new Random();
+int addTwo = rando.nextInt(100);
+
+int sum = addTwo + add;
+
+System.out.println(add +" + "+ addTwo +" = "+ sum );
+
+Random randum = new Random();
+int subtract = randum.nextInt(100);
+
+Random random = new Random();
+int minus = random.nextInt(100);
+
+int difference = subtract + -minus;
+
+System.out.println(subtract + " - " + minus + " = " + difference);
+
+String cups = JOptionPane.showInputDialog("How many cups do u have?");
+int dec = Integer.parseInt(cups);
+if(dec < 2) {
+	JOptionPane.showMessageDialog(null,"Go to the store and buy some more");
+}
+
+String deci = JOptionPane.showInputDialog("How many people are you giving to");
+int cookies = Integer.parseInt(deci);
+if(cookies > 30) {
+	JOptionPane.showMessageDialog(null, "You will need to make 2 batches of cookies");
+}
+
+String cookes = JOptionPane.showInputDialog("How many batches did you make?");
+int friends = Integer.parseInt(cookes);
+if(friends == 2) {
+	JOptionPane.showMessageDialog(null, "You are so lucky to have friends");
+}
+
+//printMessage();
+//setName();
+//getNumber(9);
+for (int i = 1; i < 501; i++) {
+	if(i % 2 == 0) {
+		
+	}
+	else {
+		System.out.println(i);
+	}
+}
+
+for (int i = 0; i < 8; i++) {
+if(i < 7){	System.out.println(i + " potato, ");
+
+}
+else if{
+System.out.println("more");
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
